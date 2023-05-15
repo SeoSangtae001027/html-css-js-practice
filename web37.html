@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS3 attribute Basic Page</title>
+        <style>
+            input[type="text"]{background: red;}
+            input[type="password"]{background: blue;}
+            input[size="l1"]{background: purple;} 
+        </style>
+    </head>
+    <body>
+        <form>
+            <input type="text"/>
+            <input type="password"/>
+            <input type="text" size="l1"/>
+        </form>
+    </body>
+</html>
+
+<!-- 만약에 원래는 8번 줄과 15번 줄이 없는 상황에서 두 줄을 추가했을 때
+그러면 마지막 15번줄은 어떻게 출력이 될까? 시험문제
+정답은 보라색
+근데 만약에 8번줄과 6번줄이 위치가 바뀐다면 15번줄은 빨간색으로 출력됨
+두가지를 다 갖고 있기 때문에 밑에 있는 것이 우선순위를 가지게 됨
+태그에 포함된 CSS가 1번 헤드안의 스타일의 CSS정보 2번 외부파일 CSS정보 3번
+-->
